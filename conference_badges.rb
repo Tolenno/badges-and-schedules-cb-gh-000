@@ -1,7 +1,7 @@
 # Write your code here.
 require "pry"
 
-def badge_maker(array, index)
+def badge_maker(name)
   "Hello, my name is #{array[index]}."
 end
 
