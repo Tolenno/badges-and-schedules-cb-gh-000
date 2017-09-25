@@ -7,7 +7,7 @@ end
 
 def batch_badge_creator(array)
   array.collect.with_index do |name, index|
-    name = badge_maker(array, index)
+    name = badge_maker(name)
   end
 end
 
